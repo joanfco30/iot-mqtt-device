@@ -1,5 +1,3 @@
- 16 lines (14 sloc) 401 Bytes
-
 void connect(Stream &uart, WiFiClient &wifi, MQTTClient &client){
   uart.print("checking wifi...");
   while (WiFi.status() != WL_CONNECTED) {
